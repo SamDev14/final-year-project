@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-banner>
+    <v-banner dense fixed>
         <p></p>
         <h1>{{banner_heading}}</h1>
         <p></p>
