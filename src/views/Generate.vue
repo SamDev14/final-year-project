@@ -12,6 +12,8 @@
 </template>
 
 <script>
+//import axios from 'axios'
+
 export default {
   name: 'App',
 
@@ -20,7 +22,17 @@ export default {
   },
 
   data: () => ({
-
+    // return {
+    //   baseUrl: process.env.VUE_APP_BASE_URL,
+    // }
   }),
+
+  // methods: {
+  //   fetchData() {
+  //     axios.get(this.baseUrl + 'enterprise-attack.json').then(response => {
+  //       console.log(response);
+  //     })
+  //   }
+  // }
 };
 </script>

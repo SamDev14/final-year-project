@@ -1,6 +1,6 @@
 <template>
   <v-card>
-    <v-banner dense fixed>
+    <v-banner dense fixed class="banner pa-4">
         <p></p>
         <h1>{{banner_heading}}</h1>
         <p></p>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'Home',
 
   components: {
     

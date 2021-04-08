@@ -68,7 +68,7 @@ export default {
 
     contentChecked() {
       if items.content ==  {
-        items.content.push(checked)
+        //items.content.push(checked)
       }
     }
   }

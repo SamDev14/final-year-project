@@ -2,7 +2,7 @@
   <v-app>
     <v-main>
       <Navbar/>
-      <home />
+      <Home/>
       <Search/>
       <Footer/>
       <Generate/>
@@ -12,17 +12,18 @@
 
 <script>
 import Navbar from './components/Navbar';
-import home from './views/home';
+import Home from './views/home';
 import Search from './views/Search';
 import Footer from './components/Footer';
 import Generate from './views/Generate';
+//import json from './enterprise-attack.json';
 
 export default {
   name: 'App',
 
   components: {
     Navbar,
-    home,
+    Home,
     Search,
     Footer,
     Generate,
